@@ -36,7 +36,7 @@ const movieLoader = async () => {
       data.results.forEach((movie) => {
         movies = movies += `
           <div class="movieCard animate__animated animate__fadeInLeft">
-            <img class="movie-poster" src="https://image.tmdb.org/t/p/w400/${movie.poster_path}">
+            <img class="movie-poster" src="https://image.tmdb.org/t/p/w400/${movie.poster_path}" loading="lazy">
             <h3 class="movie-title">${movie.title}</h3>
             <span class="movie-average">${movie.vote_average} <span class="fas fa-star"></span></span>
             <span class="movie-date">fecha de lanzamiento: ${movie.release_date}</span>
