@@ -11,8 +11,8 @@ body {
   color: black;
   background-image: linear-gradient(
       0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
     ),
     url(https://media.istockphoto.com/photos/render-of-a-macro-view-of-a-futuristic-electronic-circuit-board-with-picture-id995267166?b=1&k=20&m=995267166&s=170667a&w=0&h=zJpXaavQUKKAApgTMfdNqBSw1iOUeF7i21Nkbl-q_nY=);
   background-repeat: repeat;
@@ -232,7 +232,6 @@ nav a:hover {
 
 /* Media query */
 @media (min-width: 765px) {
-
   nav {
     border-left: 2px solid #55ff00;
     border-right: 2px solid #55ff00;
